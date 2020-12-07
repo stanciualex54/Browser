@@ -1,0 +1,29 @@
+ //---------------------------------------------------------------------------
+
+
+#pragma hdrstop
+
+#include "ClasaBaza.h"
+
+//---------------------------------------------------------------------------
+
+#pragma package(smart_init)
+string TagBaza :: gasire(string text, string start, string end){
+
+
+        ifstream in(Name.c_str());
+        if(in.is_open()){
+
+        while(getline(in,text))
+        {
+                unsigned pos_start = text.find(start);
+            if(pos_start != -1)
+                {
+                unsigned end_pos_start = pos_start + start.length();
+                unsigned pos_end = text.find(end);
+                return text.substr(end_pos_start, pos_end - end_pos_start);
+                }
+        }
+        }
+        in.close();
+}

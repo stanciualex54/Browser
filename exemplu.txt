@@ -1,0 +1,19 @@
+<html>
+<title>Exemplul33</title>
+<body>
+
+
+<title>My First title</title>
+<h1>header 1</h1>
+<b>text in bold</b>
+<i>text in italic</i>
+<font color=red>this text is red </font>
+<b>text in bold2</b>
+<table>
+<h1>asdsadad</h1>
+<tr><th><font color=blue>Coloana 1</font></th><th><font color=red>Coloana 2</font></th></tr>
+<tr><td><center>Celula 1.1</center></td><td><em>Celula 1.2</em></td></tr>
+<tr><td>Celula 2.1<br>Celula 2.1 (r&acirc;ndul al doilea)</td><td><font color=green>Celula 2.2</font></td></tr>
+</table>
+</body>
+</html>

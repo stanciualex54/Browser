@@ -1,0 +1,21 @@
+//---------------------------------------------------------------------------
+
+
+#pragma hdrstop
+
+#include "TagH1.h"
+
+//---------------------------------------------------------------------------
+
+#pragma package(smart_init)
+Header :: Header(){
+
+        string start = "<h1>";
+        string end = "</h1>";
+        string text;
+        Form1->Edit->SelAttributes->Height=17;
+        Form1->Edit->Lines->Add(gasire(text, start, end).c_str());
+        
+
+}
+

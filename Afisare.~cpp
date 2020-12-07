@@ -1,0 +1,23 @@
+//---------------------------------------------------------------------------
+
+
+#pragma hdrstop
+
+#include "Afisare.h"
+
+//---------------------------------------------------------------------------
+
+#pragma package(smart_init)
+afisare :: afisare(){
+
+        if(Form1->open->Execute()){
+        Body();
+        Bold();
+        Titlu();
+        Header();
+        Italic();
+        Red();}
+
+        
+
+}
